@@ -1,0 +1,24 @@
+.course-list-hero-container {
+  width: 940px;
+  margin: 30px auto 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.mat-display-2 {
+  color: darkblue;
+  margin-bottom: 10px;
+}
+
+.mat-title {
+  color: gray;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 941px) {
+  .course-list-hero-container {
+    width: 100vw;
+    max-width: 100%;
+    align-items: center;
+  }
+}

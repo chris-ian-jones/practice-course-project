@@ -1,5 +1,8 @@
 .course-card {
   max-width: 400px;
+  margin-bottom: 40px;
+  border-top: 15px solid dodgerblue;
+  border-bottom: 5px solid dodgerblue;
 }
 
 .icon-container {
@@ -16,4 +19,12 @@
   margin: 2.5% 2.5% 2.5% 2.5%;
   display: flex;
   justify-content: flex-end;
+}
+
+@media (max-width: 940px) {
+  .course-card {
+    width: 80vw;
+    max-width: 100%;
+    justify-content: center;
+  }
 }
