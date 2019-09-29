@@ -13,7 +13,7 @@ const httpOptions = {
 @Injectable({
   providedIn: 'root'
 })
-export class CourselistService {
+export class CourseListService {
   courseListUrl = 'http://localhost:6789/api/courses'
 
   constructor(private http:HttpClient) { }
