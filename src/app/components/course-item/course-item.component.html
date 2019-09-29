@@ -1,1 +1,21 @@
-<p>{{ course.name }}</p>
+<mat-card class="course-card">
+  <mat-card-header>
+    <div mat-card-avatar>
+      <div class="icon-container">
+        <mat-icon aria-hidden="false">school</mat-icon>
+      </div>
+    </div>
+    <mat-card-title>{{ course.name }}</mat-card-title>
+    <mat-card-subtitle>{{ course.teacher }}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <p>{{ course.description }}</p>
+    <h4 mat-line>Length: {{ course.length }} weeks</h4>
+    <p mat-line>Start: {{ course.date }}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <div class="button-container">
+      <button mat-raised-button mat-button color="primary">ENROLL</button>
+    </div>
+  </mat-card-actions>
+</mat-card>
